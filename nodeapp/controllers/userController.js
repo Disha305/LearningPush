@@ -18,7 +18,7 @@ exports.signup = async (req, res) => {
                 data: {}
             });
         }
-
+    console.log("i made the chnage here also");
         // Validate the username format
         const userNameRegex = /^[a-zA-Z0-9_]{3,}$/;
         if (!userNameRegex.test(userName)) {

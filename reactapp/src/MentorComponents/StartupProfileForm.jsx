@@ -115,6 +115,7 @@ const StartupProfileForm = () => {
             toast.error("Please fix the errors in the form.");
         }
     };
+    console.log("i made the change");
 
     const handleConfirmSubmit = async () => {
         setIsConfirmOpen(false);

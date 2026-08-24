@@ -6,6 +6,7 @@
 const express = require('express');
 const router = express.Router();
 
+
 // Import the controller logic
 const startupController = require('../controllers/startupProfileController');
 
@@ -53,5 +54,5 @@ router.get(
     validateToken, 
     startupController.getAllProfiles
 );
-
+console.log("updated")
 module.exports = router;

@@ -99,7 +99,7 @@ const MentorNavbar = () => {
                     <span>Logout</span>
                 </button>
             </div>
-
+             <h6>GOt It</h6>
             {/* Logout Confirmation */}
             <ConfirmDialog 
                 isOpen={showLogoutConfirm}
